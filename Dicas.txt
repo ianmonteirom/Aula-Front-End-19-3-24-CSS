@@ -1,0 +1,23 @@
+EXTENSÕES PARA USAR NO VSCODE
+
+
+1- LIVE SERVER  - EMULA SUAS PAGINAS 
+
+2- MATERIAL ICON THEME - PERSONALIZA OS ICONES DE SEU PROJETO
+
+3- PRETTIER  - IDENTA(AJUSTA) SEU PROJETO DE FORMA ORGANIZADA
+
+
+
+https://www.lipsum.com/ - site de textos para seu projeto
+
+https://unsplash.com/pt-br - site de imagens gratuitas
+
+https://pixabay.com/pt/ - site de imagens gratuitas
+
+https://icons8.com.br/ - site de icones 
+
+https://www.flaticon.com/br/ - site de icones
+
+
+

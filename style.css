@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, aqua, bisque);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: blueviolet;
+}
+
+#subtitulo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2:first-child{
+    color: red;   
+}
+
+.niveis {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 + h4 {
+    background-color: black;
+    color: aqua;
+    font-size: 30px;
+}
+
+img[title='Leão brabo'] {
+    border: 12px solid yellow;
+    width: 100%;
+}

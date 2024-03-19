@@ -1,0 +1,206 @@
+<!--IDENTIFICA O NAVEGADOR E SUA VERSÃO-->
+<!DOCTYPE html>
+<!--INICIA O HTML E DEFINE A LINGUAGEM -->
+<html lang="pt-br">
+<!-- INICIA O CABEÇALHO-->
+
+<head>
+    <!--IDENTIFICA CARACTERES ESPECIAIS E ACENTOS -->
+    <meta charset="UTF-8">
+    <!-- IDENTIFICA O DISPOSITIVO(CELULAR, TABLET, PC..ETC)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ADICIONA ICONE NA PAGINA -->
+    <!--CSS EXTERNO-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icone.png">
+    <!--TITULO DA PÁGINA -->
+    <title>Site</title>
+    <!--FECHANDO O CABEÇALHO -->
+</head>
+<!--INICIO DO CORPO DA PAGINA -->
+
+<body>
+
+    <!--TIPOS DE TITULOS-->
+    <h2>TESTE</h2>
+    <h1>ESCOLA DEV</h1>
+    <h2 id="subtitulo">Seja bem vindo a aula de Frontend</h2>
+    <h3 class="niveis">Nível 1</h3>
+    <h4 class="niveis">Nível 2</h4>
+    <h5 class="niveis">Nível 3</h5>
+    <h6 class="niveis">Nível 4</h6>
+    <!--Linha-->
+    <hr>
+
+    <!-- PARAGRÁFOS-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Perspiciatis adipisci expedita quod quidem neque architecto eum
+        dolores explicabo rem earum in natus laudantium eligendi dignissimos,
+        officiis veniam, velit sed itaque.</p>
+
+    <!--Linha-->
+    <hr>
+
+    <!--MANIUPANDO OS TEXTOS COM MOLDE DO FIELDSET  -->
+    <fieldset>
+        <legend>Informações</legend>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat et excepturi nisi explicabo, voluptas ut nobis fugit non quisquam perferendis porro unde odio deserunt magnam ipsa molestiae, culpa quidem impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem molestiae optio magnam. Rem molestias sit fuga sed, at vitae architecto fugit temporibus maiores in praesentium consequuntur. Dolor aliquam doloremque quo!</p>
+    </fieldset>
+    <!--Linha-->
+    <hr>
+
+    <!--ADICIONANDO IMAGENS NO SEU SITE-->
+    <img src="./img/leao.jpg" alt="Leão" title="Leão brabo" width="400px" height="200px" />
+    <!--Linha-->
+    <hr>
+
+    <!--PRE DEFINIÇÃO DE TEXTO-->
+    <pre>
+        Aula1, Aula2, Aula3
+    </pre>
+    <pre>
+        Aula1
+        Aula2
+        Aula3
+    </pre>
+    <!--Linha-->
+    <hr>
+    <!--LISTA ORDENADAS-->
+    <ol>
+        <li>Conteudo Aula 1</li>
+        <li>Conteudo Aula 2</li>
+        <li>Conteudo Aula 3</li>
+    </ol>
+
+    <ol type="I">
+        <li>Conteudo Aula 1</li>
+        <li>Conteudo Aula 2</li>
+        <li>Conteudo Aula 3</li>
+    </ol>
+
+    <hr>
+
+
+    <!--LISTA NÃO ORDENADAS-->
+    <ul>
+        <li>Conteudo Aula 3</li>
+        <li>Conteudo Aula 4</li>
+        <li>Conteudo Aula 5</li>
+    </ul>
+
+    <ul type="square">
+        <li>Conteudo Aula 3</li>
+        <li>Conteudo Aula 4</li>
+        <li>Conteudo Aula 5</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Conteudo Aula 3</li>
+        <li>Conteudo Aula 4</li>
+        <li>Conteudo Aula 5</li>
+    </ul>
+    <hr>
+    <!--LISTA DE DEFINIÇÃO-->
+    <dl>
+        <dt>Pergunta 1</dt>
+        <dd>A resposta da pergunta 1</dd>
+        <dt>Pergunta 2</dt>
+        <dd>A resposta da pergunta 2</dd>
+        <dt>Pergunta 3</dt>
+        <dd>A resposta da pergunta 3</dd>
+    </dl>
+    <hr>
+    <!--FORMULARIOS-->
+    <h2>Dados Aluno</h2>
+    <form action="Dados.html" method="get">
+        <input type="text" placeholder="Digite seu nome">
+        <input type="password" placeholder="Digite sua senha">
+        <input type="submit" value="Enviar">
+        <input type="checkbox">
+        <input type="range">
+        <input type="radio">
+        <input type="color">
+        <input type="file">
+        <input type="date">
+        <input type="button" value="Botão">
+        <h3>Selecione uma opção</h3>
+        <select name="select">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JAVASCRIPT">JAVASCRIPT</option>
+        </select>
+    </form>
+    <!--LINKS COM REFERENCIAS-->
+    <h3>Links de Acesso Rápido</h3>
+    <a href="https://pt-br.facebook.com/">Facebook</a>
+    <a href="https://www.instagram.com/">Instagram</a>
+    <a href="https://br.linkedin.com/">Linkedin</a>
+    <a href="Dados.html">Pagina</a>
+
+    <!--TABELAS-->
+    <table border="1">
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+        </tr>
+        <tr>
+            <td>Huguinho</td>
+            <td>19</td>
+        </tr>
+
+        <hr>
+
+        <h3>Lista de Materiais dev</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>Preço</td>
+                    <td>Descrição</td>
+                    <td>Imagem</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>R$2500,00</td>
+                    <td>tela amoled e processador i9</td>
+                    <td><img src="./img/leao.jpg" width="50px" height="50px"></td>
+                </tr>
+                <tr>
+                    <td>Mouse</td>
+                    <td>R$500,00</td>
+                    <td>Mouse Gamer Top</td>
+                    <td><img src="./img/leao.jpg" width="50px" height="50px"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>R$ 3000,00</td>
+                    <td>Válido até fev 2024</td>
+                </tr>
+            </tfoot>
+        </table>
+    </table>
+
+    <hr>
+    <p>Caro Aluno seus critérios de <strong>NOTA</strong> e <b>FREQUÊNCIA</b></p>
+    <p>Ajuda com um bom <i>DESEMPENHO</i> e <em>HABILIDADES</em></p>
+    <p>em seu boletim vai constar notas <sup>BOAS</sup> e <sub>RUINS</sub></p>
+    <p>para sua <ins>APROVAÇÃO</ins> e <del>REPROVAÇÃO</del></p>
+    <p>com isso seja um <small>ALUNO</small> que se <mark>DESTAQUE</mark></p>
+
+    <footer>
+        <h5>@2024 - todos os direitos reservados.</h5>
+    </footer>
+
+    <hr>
+
+    <!--FECHANDO O CORPO DA PAGINA -->
+</body>
+
+<!--FECHANDO O HTML -->
+
+</html>
